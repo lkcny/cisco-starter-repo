@@ -1,23 +1,13 @@
 import './App.css';
+import Banner from './components/Banner/Banner';
+import Panels from './components/Panels/Panels';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-	Test text change
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div Banner>
+      <Banner/>
+      <Panels/>
+      </div>
   );
 }
 

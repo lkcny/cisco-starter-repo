@@ -1,0 +1,7 @@
+/* Solid border */
+hr.solid {
+    border-top: 3px solid #bbb;
+  }
+
+  /* font-size font-family */
+.text1 { font-size: 24px; font-family: Garamond,sans-serif; margin-left:15px }

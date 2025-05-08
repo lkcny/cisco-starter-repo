@@ -1,14 +1,15 @@
 // components/Banner.jsx
-import React from "react";
+import React, { Component } from "react";
 import './style.css';
 
-function Banner() {
-  return (
+class Banner extends Component {
+  render() {return (
     <div class="text1">
-		<h1>Sextant</h1>
+		<h1>{this.props.bannerText}</h1>
 		<hr class="solid"></hr>
     </div>
-  );
-};
+ 		 );
+	}
+}
 
 export default Banner;
